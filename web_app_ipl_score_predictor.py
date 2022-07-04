@@ -1,9 +1,9 @@
 import streamlit as st
 import numpy as np
-import pickle
+import joblib
 
 
-loaded_model = pickle.load(open('Trained_IPL_model_ridge_regression.sav', 'rb'))
+loaded_model = joblib.load('Trained_IPL_model_ridge_regression.sav')
 
 
 def prediction(input_data):
