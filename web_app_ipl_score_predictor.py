@@ -58,9 +58,9 @@ def main():
             stadium_vector.append(0)
     overs=st.slider('Number of overs that has been completed',min_value=5,max_value=19)
     runs=st.text_input('Runs scored')
-    wickets=st.slider('Wickets lost',min_value=0,max_value=10)
+    wickets=st.slider('Wickets lost',min_value=0,max_value=9)
     runs_5=st.text_input('Runs scored in the last 5 overs')
-    wickets_5=st.slider('Wickets lost in the last 5 overs',min_value=0,max_value=10)
+    wickets_5=st.slider('Wickets lost in the last 5 overs',min_value=0,max_value=9)
     scoreboard=[runs,wickets,overs,runs_5,wickets_5]
 
     data=scoreboard+stadium_vector+batting_vector+bowling_vector
