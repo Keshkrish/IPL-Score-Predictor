@@ -1,4 +1,4 @@
 # IPL-Score-Predictor
 Web app to predict ipl scores
 
-website : www.preidictiplscores.com
+website : www.predictiplscores.com
