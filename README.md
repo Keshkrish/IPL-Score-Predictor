@@ -2,7 +2,7 @@
 Web app to predict ipl scores
 
 
-Uses a model trained using ridge regression(see resources for training script and dataset) to predict the scores
+Uses a model trained using ridge regression to predict the scores
 
 
 Streamlit and Heroku used to deploy the app
